@@ -19,10 +19,16 @@ function PlayerStateFree() {
 	//Update Image Index
 	PlayerAnimateSprite();
 
-	//Change state
+	//Change to roll state
 	if (keyActivate) {
 		state = PlayerStateRoll;
 		moveDistanceRemaining = distanceRoll
+	}
+	
+	//Change to attack state
+	if (keyAttack) {
+		state = PlayerStateAttack;
+		stateAttack = AttackSlash;
 	}
 }
 
