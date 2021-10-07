@@ -1,26 +1,28 @@
-//Movement
-hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
+function PlayerStateFree() {
+	//Movement
+	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
+	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
-PlayerCollision();
+	PlayerCollision();
 
-//Update Sprite Index
-var _oldSprite = sprite_index;
-if (inputMagnitude != 0)
-{
-	direction = inputDirection
-	sprite_index = spriteRun;
-} else sprite_index = spriteIdle;
+	//Update Sprite Index
+	var _oldSprite = sprite_index;
+	if (inputMagnitude != 0)
+	{
+		direction = inputDirection
+		sprite_index = spriteRun;
+	} else sprite_index = spriteIdle;
 
 
-if (_oldSprite != sprite_index) localFrame = 0;
+	if (_oldSprite != sprite_index) localFrame = 0;
 
-//Update Image Index
-PlayerAnimateSprite();
+	//Update Image Index
+	PlayerAnimateSprite();
 
-//Change state
-if (keyActivate) {
-	state = PlayerStateRoll;
-	moveDistanceRemaining = distanceRoll
+	//Change state
+	if (keyActivate) {
+		state = PlayerStateRoll;
+		moveDistanceRemaining = distanceRoll
+	}
 }
-//wad
+

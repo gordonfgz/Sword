@@ -9,30 +9,5 @@ keyActivate = keyboard_check_pressed(vk_space);
 inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
 inputMagnitude = (keyRight-keyLeft != 0) or (keyDown - keyUp != 0);
 
-//Movement
-hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
-
-PlayerCollision();
-
-//Update Sprite Index
-var _oldSprite = sprite_index;
-if (inputMagnitude != 0)
-{
-	direction = inputDirection
-	sprite_index = spriteRun;
-} else sprite_index = spriteIdle;
-
-
-if (_oldSprite != sprite_index) localFrame = 0;
-
-//Update Image Index
-PlayerAnimateSprite();
-
-//Change state
-if (keyActivate) {
-	state = PlayerStateRoll;
-	moveDistanceRemaining = distanceRoll
-}
-//wad
+script_execute(state);
 
