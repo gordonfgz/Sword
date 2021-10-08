@@ -129,8 +129,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "PlayerSpriteResources",
+    "path": "folders/Sprites/PlayerSpriteResources.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerAttackSlash",
