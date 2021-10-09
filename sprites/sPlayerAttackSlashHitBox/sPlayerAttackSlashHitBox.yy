@@ -146,8 +146,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "PlayerSpriteResources",
-    "path": "folders/Sprites/PlayerSpriteResources.yy",
+    "name": "PlayerAttackResrouces",
+    "path": "folders/Sprites/PlayerAttackResrouces.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerAttackSlashHitBox",

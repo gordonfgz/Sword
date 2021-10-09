@@ -13,7 +13,7 @@ function AttackSlash() {
 		
 	}
 	
-	CalcAttack(sPlayerAttackSlashHitBox);
+	CalcAttack(sPlayerAttackSlashHB);
 	
 	//Update Sprite
 	PlayerAnimateSprite();
