@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSkeleton",
-    "path": "sprites/sSkeleton/sSkeleton.yy",
+    "name": "sSkeleton_test",
+    "path": "sprites/sSkeleton_test/sSkeleton_test.yy",
   },
   "solid": false,
   "visible": true,

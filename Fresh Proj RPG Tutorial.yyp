@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sSkeletonRun","path":"sprites/sSkeletonRun/sSkeletonRun.yy",},"order":3,},
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},"order":5,},
     {"id":{"name":"sPurpleDungeon","path":"sprites/sPurpleDungeon/sPurpleDungeon.yy",},"order":3,},
     {"id":{"name":"sKnightTemplate","path":"sprites/sKnightTemplate/sKnightTemplate.yy",},"order":1,},
@@ -8,7 +9,7 @@
     {"id":{"name":"shRedFlash","path":"shaders/shRedFlash/shRedFlash.yy",},"order":1,},
     {"id":{"name":"CalcAttack","path":"scripts/CalcAttack/CalcAttack.yy",},"order":0,},
     {"id":{"name":"shWhiteFlash","path":"shaders/shWhiteFlash/shWhiteFlash.yy",},"order":0,},
-    {"id":{"name":"sSkeleton","path":"sprites/sSkeleton/sSkeleton.yy",},"order":0,},
+    {"id":{"name":"sSkeleton_test","path":"sprites/sSkeleton_test/sSkeleton_test.yy",},"order":0,},
     {"id":{"name":"oBoss","path":"objects/oBoss/oBoss.yy",},"order":1,},
     {"id":{"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},"order":3,},
     {"id":{"name":"sLongScroll","path":"sprites/sLongScroll/sLongScroll.yy",},"order":8,},
