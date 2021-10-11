@@ -12,5 +12,10 @@ inputDirectionX = point_direction(0,0,keyRight-keyLeft,0);
 inputDirectionY = point_direction(0,0,0,keyDown-keyUp);
 inputMagnitude = (keyRight-keyLeft != 0) or (keyDown - keyUp != 0);
 
-if (!global.gamePaused) script_execute(state);
+if (!global.gamePaused) {
+	script_execute(state);
+	invulnerable = max(invulnerable - 1.0);
+	flash = max(flash - 0.05, 0);
+}
 
+depth = -bbox_bottom;

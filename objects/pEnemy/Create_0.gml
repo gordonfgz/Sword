@@ -33,6 +33,19 @@ enemyScript[ENEMYSTATE.HURT] = -1;
 enemyScript[ENEMYSTATE.DIE] = -1;
 enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
 
+//Check HP
+if (enemyHP != enemyMaxHP) {
+	show_debug_message("INITIALISE HP != MAX HP");
+	enemyHP = enemyMaxHP
+}
+
+//Healthbar nonsense
+healthbar_width = 196;
+healthbar_height = 27;
+healthbar_x = (1100/2) - (healthbar_width/2);
+healthbar_y = 50;
+
+
 
 
 

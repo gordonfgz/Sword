@@ -82,14 +82,14 @@ function SkeletonChase(){
 			sprite_index = sprAttack;
 			image_index = 0;
 			image_speed = 1.0;
-			xTo += lengthdir_x(60, dir);
-			yTo += lengthdir_y(60, dir);
+			xTo += lengthdir_x(100, dir);
+			yTo += lengthdir_y(100, dir);
 		}
 	}
 }
 	
 function SkeletonAttack(){
-	var _spd = 10;
+	var _spd = 8;
 	
 	//Dont move while still getting ready
 	if (image_index < 2) {
@@ -130,7 +130,7 @@ function SkeletonAttack(){
 		if (floor(image_index ==5)) {
 			show_debug_message("Ended animation, switching back to chase mode");
 			stateTarget = ENEMYSTATE.CHASE;
-			stateWaitDuration = 15;
+			stateWaitDuration = 50;
 			state = ENEMYSTATE.WAIT;
 		}
 	}

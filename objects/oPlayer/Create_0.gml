@@ -10,8 +10,18 @@ hSpeed = 0;
 vSpeed = 0;
 speedWalk = 4.0;
 speedRoll = 10.0;
-distanceRoll = 100;
+distanceRoll = 150;
+
+speedBonk = 1.5;
+distanceBonk = 40;
+distanceBonkHeight = 12;
+
+
+
 z = 0;
+invulnerable = 0;
+flash = 0;
+flashShader = shWhiteFlash;
 
 spriteRoll = sPlayerRoll
 spriteRun = sPlayerRun;
