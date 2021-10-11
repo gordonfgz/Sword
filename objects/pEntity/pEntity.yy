@@ -37,8 +37,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Parent Classes",
+    "path": "folders/Objects/Parent Classes.yy",
   },
   "resourceVersion": "1.0",
   "name": "pEntity",
