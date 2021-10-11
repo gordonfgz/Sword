@@ -16,7 +16,7 @@ function PlayerCollision(){
 	var _snapX;
 	while(_entityCount > 0) {
 		var _entityCheck = _entityList[| 0];
-		if (_entityCheck.entityCollision == true) {
+		if (_entityCheck.entityCollision == true && (_entityCheck.lifted != true)) {
 			//Move as close as we can
 			if (sign(hSpeed) == -1) {
 				_snapX = _entityCheck.bbox_right + 1;
@@ -53,7 +53,7 @@ function PlayerCollision(){
 	var _snapY;
 	while(_entityCount > 0) {
 		var _entityCheck = _entityList[| 0];
-		if (_entityCheck.entityCollision == true) {
+		if (_entityCheck.entityCollision == true && (_entityCheck.lifted != true)) {
 			//Move as close as we can
 			if (sign(vSpeed) == -1) {
 				_snapY = _entityCheck.bbox_bottom + 1;

@@ -4,6 +4,12 @@ function MACROS(){
 #macro CARDINAL_DIR round(direction/90)
 #macro ROOM_START rDungeon
 
+#macro RESOLUTION_W 320
+#macro RESOLUTION_H 180
+
+#macro TRANSITION_SPEED 0.02
+#macro OUT 0
+#macro IN 1
 
 
 }

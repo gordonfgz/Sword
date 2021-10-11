@@ -31,6 +31,7 @@ function PlayerStateFree() {
 		stateAttack = AttackSlash;
 	}
 	
+	
 	//Interact with entities
 	if (keyActivate) {
 		var _activateX = lengthdir_x(10, direction);
