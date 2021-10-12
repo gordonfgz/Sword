@@ -72,6 +72,7 @@
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"sShineAnimation","path":"sprites/sShineAnimation/sShineAnimation.yy",},"order":12,},
     {"id":{"name":"tPurpleDungeon","path":"tilesets/tPurpleDungeon/tPurpleDungeon.yy",},"order":1,},
+    {"id":{"name":"oWinningCondition","path":"objects/oWinningCondition/oWinningCondition.yy",},"order":13,},
     {"id":{"name":"PlayerStateBonk","path":"scripts/PlayerStateBonk/PlayerStateBonk.yy",},"order":5,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":1,},
     {"id":{"name":"sHealthbar","path":"sprites/sHealthbar/sHealthbar.yy",},"order":21,},
