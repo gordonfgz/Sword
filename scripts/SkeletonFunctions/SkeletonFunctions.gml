@@ -89,10 +89,10 @@ function SkeletonChase(){
 }
 	
 function SkeletonAttack(){
-	var _spd = 8;
+	var _spd = 5;
 	
 	//Dont move while still getting ready
-	if (image_index < 2) {
+	if (image_index < 3) {
 		_spd = 0;
 	}
 	
@@ -130,7 +130,7 @@ function SkeletonAttack(){
 		if (floor(image_index ==5)) {
 			show_debug_message("Ended animation, switching back to chase mode");
 			stateTarget = ENEMYSTATE.CHASE;
-			stateWaitDuration = 50;
+			stateWaitDuration = 100;
 			state = ENEMYSTATE.WAIT;
 		}
 	}

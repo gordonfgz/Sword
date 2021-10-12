@@ -9,8 +9,8 @@ image_speed = 0;
 hSpeed = 0;
 vSpeed = 0;
 speedWalk = 4.0;
-speedRoll = 10.0;
-distanceRoll = 150;
+speedRoll = 8.0;
+distanceRoll = 100;
 
 speedBonk = 1.5;
 distanceBonk = 40;
