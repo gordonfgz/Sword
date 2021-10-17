@@ -21,8 +21,8 @@ waitDuration = 60;
 wait = 0;
 
 //Enemy Sprites
-sprIdle = sSkeleton
-sprMove = sSkeletonRun1D;
+sprIdle = sSlithers_idle
+sprMove = sSlithersRun;
 
 //Enemy Scripts
 enemyScript[ENEMYSTATE.IDLE] = -1;
