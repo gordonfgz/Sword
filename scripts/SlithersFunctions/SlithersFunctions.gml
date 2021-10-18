@@ -176,7 +176,7 @@ function SlithersDie() {
 function ShootFireball(_xTo, _yTo) {
 	var _spread = random_range(-50,50)
 	var _dir = point_direction(x,y,_xTo + _spread,_yTo + _spread);	
-	with (instance_create_depth(floor(x), floor(y), depth, oFireball)) {
+	with (instance_create_depth(floor(x), floor(y - 50), depth, oFireball)) {
 		show_debug_message(round(_dir/90));
 		image_speed = 0;
 		image_index = 2;

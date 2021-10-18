@@ -32,6 +32,7 @@
     {"id":{"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},"order":3,},
     {"id":{"name":"sLongScroll","path":"sprites/sLongScroll/sLongScroll.yy",},"order":7,},
     {"id":{"name":"EntityHitDestroy","path":"scripts/EntityHitDestroy/EntityHitDestroy.yy",},"order":11,},
+    {"id":{"name":"rDungeon2","path":"rooms/rDungeon2/rDungeon2.yy",},"order":7,},
     {"id":{"name":"sBoss","path":"sprites/sBoss/sBoss.yy",},"order":1,},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},"order":1,},
     {"id":{"name":"PlayerStateTransition","path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},"order":3,},
@@ -134,6 +135,7 @@
     {"roomId":{"name":"rRoomSlithers","path":"rooms/rRoomSlithers/rRoomSlithers.yy",},},
     {"roomId":{"name":"rDungeon1","path":"rooms/rDungeon1/rDungeon1.yy",},},
     {"roomId":{"name":"rDungeonWeb","path":"rooms/rDungeonWeb/rDungeonWeb.yy",},},
+    {"roomId":{"name":"rDungeon2","path":"rooms/rDungeon2/rDungeon2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
