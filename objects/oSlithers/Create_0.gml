@@ -6,6 +6,10 @@ state = ENEMYSTATE.WANDER;
 AttackCooldown = 0;
 AttackTimer = 1;
 
+//Aura regulation
+PassiveCooldown = 0;
+PassiveTimer = 500;
+
 //Enemy Sprites
 sprMove = sSlithers_idle;
 sprAttack = sSlithersAttack;
