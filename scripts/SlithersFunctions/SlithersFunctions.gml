@@ -168,6 +168,9 @@ function SlithersDie() {
 	// check animation is finished
 	if (image_index + (sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps)) >= image_number) {
 		instance_destroy();
+		with(instance_exists(oRoomExit)) {
+			canTransit = true;
+		}
 	}
 
 }
@@ -185,4 +188,11 @@ function ShootFireball(_xTo, _yTo) {
 		//image_index = round(_dir/90) - 2;
 		speed = 10;
 	}
+}
+
+function SlithersPassive() {
+	show_debug_message("Spawn bomber");
+	instance_create_depth(floor(x), floor(y - 50), depth, oBomber)
+		
+
 }
