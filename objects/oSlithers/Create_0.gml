@@ -2,6 +2,10 @@ event_inherited();
 
 state = ENEMYSTATE.WANDER;
 
+// Attack Speed Regulation
+AttackCooldown = 0;
+AttackTimer = 1;
+
 //Enemy Sprites
 sprMove = sSlithers_idle;
 sprAttack = sSlithersAttack;

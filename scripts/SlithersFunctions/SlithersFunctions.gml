@@ -76,7 +76,7 @@ function SlithersChase(){
 		EnemyTileCollision();
 		
 		//Check if can attack
-		if (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) {
+		if (point_distance(x,y,target.x,target.y) <= enemyAttackRadius && AttackCooldown == 0) {
 			show_debug_message("Slithers Attacks Player");
 			state = ENEMYSTATE.ATTACK;
 			sprite_index = sprAttack;
@@ -89,51 +89,30 @@ function SlithersChase(){
 }
 	
 function SlithersAttack(){
-var _spd = 5;
+   
 	
-	//Dont move while still getting ready
-	if (image_index < 2) {
-		_spd = 0;
+	xTo = target.x;
+	yTo = target.y;
+	
+	if (floor(image_index >= 10) and AttackCooldown == 0) {
+		ShootFireball(xTo, yTo);
+		AttackCooldown = AttackTimer;
 	}
 	
-	//Freeze animation while in mid dash and also after landing finishes
-	if (floor(image_index) == 1 || floor(image_index) == 1) {
-		image_speed = 0;
+	
+	
+	
+	
+	if (floor(image_index == 15)) {
+			show_debug_message("Ended animation, switching back to chase mode");
+			stateTarget = ENEMYSTATE.CHASE;
+			stateWaitDuration = 60;
+			state = ENEMYSTATE.WAIT;
 	}
 	
 	//How far we have to jump
 	var _distanceToGo = point_distance(x,y,xTo,yTo);
 	
-	//begin landing end of the animation once we are nearly done
-    if (_distanceToGo < 4 && image_index < 5) {
-		image_speed = 1;
-	}
-	
-	//Move
-	if (_distanceToGo > _spd) {
-		dir = point_direction(x,y,xTo,yTo);
-		hSpeed = lengthdir_x(_spd,dir);
-		vSpeed = lengthdir_y(_spd,dir);
-		if (hSpeed !=0) {
-			image_xscale = sign(hSpeed);
-		}
-		
-		//Commit to move and stop moving if we hit a wall
-		if (EnemyTileCollision() == true) {
-			show_debug_message("COLLIDED WITH SOMETHING");
-			xTo = x;
-			yTo = y;
-		}
-	} else {
-		x = xTo;
-		y = yTo;
-		if (floor(image_index == 5)) {
-			show_debug_message("Ended animation, switching back to chase mode");
-			stateTarget = ENEMYSTATE.CHASE;
-			stateWaitDuration = 100;
-			state = ENEMYSTATE.WAIT;
-		}
-	}
 	
 }
 	
@@ -191,4 +170,19 @@ function SlithersDie() {
 		instance_destroy();
 	}
 
+}
+
+
+function ShootFireball(_xTo, _yTo) {
+	var _spread = random_range(-50,50)
+	var _dir = point_direction(x,y,_xTo + _spread,_yTo + _spread);	
+	with (instance_create_depth(floor(x), floor(y), depth, oFireball)) {
+		show_debug_message(round(_dir/90));
+		image_speed = 0;
+		image_index = 2;
+		image_angle = _dir;
+		direction = _dir;
+		//image_index = round(_dir/90) - 2;
+		speed = 10;
+	}
 }
