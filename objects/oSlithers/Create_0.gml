@@ -8,7 +8,7 @@ AttackTimer = 1;
 
 //Aura regulation
 PassiveCooldown = 0;
-PassiveTimer = 500;
+PassiveTimer = 300;
 
 //Enemy Sprites
 sprMove = sSlithers_idle;
