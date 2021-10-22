@@ -1,0 +1,207 @@
+{
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 0,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 211,
+  "bbox_top": 0,
+  "bbox_bottom": 255,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 256,
+  "height": 256,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"4265e021-469c-4278-b2f6-321b461fb887","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4265e021-469c-4278-b2f6-321b461fb887","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"4265e021-469c-4278-b2f6-321b461fb887","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5fca4aae-f266-46a4-a77e-ae9ebf4a3046","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5fca4aae-f266-46a4-a77e-ae9ebf4a3046","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"5fca4aae-f266-46a4-a77e-ae9ebf4a3046","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1f2ed622-92f1-4669-a5d4-e4aacbbfd6a8","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1f2ed622-92f1-4669-a5d4-e4aacbbfd6a8","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"1f2ed622-92f1-4669-a5d4-e4aacbbfd6a8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1fa8951d-64fa-4ef1-849c-0955b502bfcb","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1fa8951d-64fa-4ef1-849c-0955b502bfcb","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"1fa8951d-64fa-4ef1-849c-0955b502bfcb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"476648f6-98d3-46dd-9b65-a7e62c290031","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"476648f6-98d3-46dd-9b65-a7e62c290031","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"476648f6-98d3-46dd-9b65-a7e62c290031","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5eb3913-fe87-47d4-bd26-6c160bfc9c6b","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5eb3913-fe87-47d4-bd26-6c160bfc9c6b","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"a5eb3913-fe87-47d4-bd26-6c160bfc9c6b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"80fa857f-4b2d-4ddc-bd7e-b20b5335c927","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"80fa857f-4b2d-4ddc-bd7e-b20b5335c927","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"80fa857f-4b2d-4ddc-bd7e-b20b5335c927","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cbb62d11-c930-4026-be7e-5f58a0e0d68f","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cbb62d11-c930-4026-be7e-5f58a0e0d68f","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"cbb62d11-c930-4026-be7e-5f58a0e0d68f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d80a06a3-bb38-4bc1-b701-aa9c04dfb595","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d80a06a3-bb38-4bc1-b701-aa9c04dfb595","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"d80a06a3-bb38-4bc1-b701-aa9c04dfb595","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ad6c964a-576c-4430-aa81-8cb4813f40e1","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ad6c964a-576c-4430-aa81-8cb4813f40e1","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"ad6c964a-576c-4430-aa81-8cb4813f40e1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"700870da-5ba8-48d7-bceb-4184628c6820","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"700870da-5ba8-48d7-bceb-4184628c6820","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"700870da-5ba8-48d7-bceb-4184628c6820","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"86920d9e-a796-4f63-8c95-3d859ad1f2e0","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"86920d9e-a796-4f63-8c95-3d859ad1f2e0","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"86920d9e-a796-4f63-8c95-3d859ad1f2e0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dfc6b7c3-7c56-4ebb-b172-673aae190381","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dfc6b7c3-7c56-4ebb-b172-673aae190381","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"dfc6b7c3-7c56-4ebb-b172-673aae190381","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f5090024-f4ab-49bb-bd37-9332cc489a3a","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f5090024-f4ab-49bb-bd37-9332cc489a3a","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"f5090024-f4ab-49bb-bd37-9332cc489a3a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b1ccb064-ec0c-4ada-9ea0-dfaab6a74597","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b1ccb064-ec0c-4ada-9ea0-dfaab6a74597","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"b1ccb064-ec0c-4ada-9ea0-dfaab6a74597","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fa0e8a06-5f2c-4c71-8fe4-cbd9f0493687","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fa0e8a06-5f2c-4c71-8fe4-cbd9f0493687","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"fa0e8a06-5f2c-4c71-8fe4-cbd9f0493687","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"acd1fb86-1d5e-49c1-989e-17e2ced181c9","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"acd1fb86-1d5e-49c1-989e-17e2ced181c9","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"acd1fb86-1d5e-49c1-989e-17e2ced181c9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c01c6e46-9855-4b72-8007-2870a7a13e06","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c01c6e46-9855-4b72-8007-2870a7a13e06","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"c01c6e46-9855-4b72-8007-2870a7a13e06","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"339d848e-efe5-4ad8-bf57-bfc1d03ace29","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"339d848e-efe5-4ad8-bf57-bfc1d03ace29","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"339d848e-efe5-4ad8-bf57-bfc1d03ace29","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b4a87199-bf62-44b7-9d6a-1cf0bd6d4dcc","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b4a87199-bf62-44b7-9d6a-1cf0bd6d4dcc","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"b4a87199-bf62-44b7-9d6a-1cf0bd6d4dcc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d9b0d989-84bc-4c66-b3cf-d4c61dff9ead","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d9b0d989-84bc-4c66-b3cf-d4c61dff9ead","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"d9b0d989-84bc-4c66-b3cf-d4c61dff9ead","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2f9245ba-c1cb-44fc-af5b-f904004a38ff","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2f9245ba-c1cb-44fc-af5b-f904004a38ff","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"2f9245ba-c1cb-44fc-af5b-f904004a38ff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"838b324a-c0eb-464c-a91d-3f0c95fd0360","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"838b324a-c0eb-464c-a91d-3f0c95fd0360","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"838b324a-c0eb-464c-a91d-3f0c95fd0360","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"53bc86dc-9ce3-41b8-8e95-85848f2e1d8c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"53bc86dc-9ce3-41b8-8e95-85848f2e1d8c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"53bc86dc-9ce3-41b8-8e95-85848f2e1d8c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"72c59046-e489-421d-9463-6568754825cf","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"72c59046-e489-421d-9463-6568754825cf","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"72c59046-e489-421d-9463-6568754825cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"01d6f5ae-15ee-4e93-8585-2732508d71f2","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"01d6f5ae-15ee-4e93-8585-2732508d71f2","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"01d6f5ae-15ee-4e93-8585-2732508d71f2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4595c694-d15a-4e78-af71-8cbc75bb195c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4595c694-d15a-4e78-af71-8cbc75bb195c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"4595c694-d15a-4e78-af71-8cbc75bb195c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"df57b834-441b-4494-b9d8-4c372a1f24ef","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"df57b834-441b-4494-b9d8-4c372a1f24ef","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"df57b834-441b-4494-b9d8-4c372a1f24ef","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2932c9af-a553-42f3-8eb6-ffe55dbff481","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2932c9af-a553-42f3-8eb6-ffe55dbff481","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"2932c9af-a553-42f3-8eb6-ffe55dbff481","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a718c41d-7e61-4825-be0b-f459b55a140c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a718c41d-7e61-4825-be0b-f459b55a140c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"a718c41d-7e61-4825-be0b-f459b55a140c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d0f6d8cb-713b-44e4-aa95-4ff9e7ee04e6","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d0f6d8cb-713b-44e4-aa95-4ff9e7ee04e6","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"d0f6d8cb-713b-44e4-aa95-4ff9e7ee04e6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a6deafde-24f1-43c7-b9f3-f02c2dc08ef0","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a6deafde-24f1-43c7-b9f3-f02c2dc08ef0","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"a6deafde-24f1-43c7-b9f3-f02c2dc08ef0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8dfac310-cb62-4489-bac7-6531a3278fae","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8dfac310-cb62-4489-bac7-6531a3278fae","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"LayerId":{"name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","name":"8dfac310-cb62-4489-bac7-6531a3278fae","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 30.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 33.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"27ccb29a-e896-488f-987f-950f1372f891","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4265e021-469c-4278-b2f6-321b461fb887","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cb0bd7db-8fa7-45fd-85d1-a294e4996fa5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5fca4aae-f266-46a4-a77e-ae9ebf4a3046","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bc69577f-6c15-4314-8fdd-7196c7e0fac5","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f2ed622-92f1-4669-a5d4-e4aacbbfd6a8","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b729324f-be19-4ae6-8276-95e3c68f5404","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1fa8951d-64fa-4ef1-849c-0955b502bfcb","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"292e0314-4c90-4e39-8a7d-757476da349c","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"476648f6-98d3-46dd-9b65-a7e62c290031","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"632ddc89-6851-4118-b8b7-6650007aa1ce","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5eb3913-fe87-47d4-bd26-6c160bfc9c6b","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"741ff8a3-8b34-441f-a83b-9c274fd20252","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80fa857f-4b2d-4ddc-bd7e-b20b5335c927","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"73d5164e-efc7-4f71-9ef7-2619f0b1382e","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cbb62d11-c930-4026-be7e-5f58a0e0d68f","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"403d581a-7367-4f0e-9978-22f9ec54864a","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d80a06a3-bb38-4bc1-b701-aa9c04dfb595","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2747f5c9-9565-4374-b18f-38d5a6cd96de","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ad6c964a-576c-4430-aa81-8cb4813f40e1","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7b89dd1e-a848-4380-830c-cc9d3808fa7a","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"700870da-5ba8-48d7-bceb-4184628c6820","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"27c4f193-c8bc-409e-a7fc-6d2f3786695f","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86920d9e-a796-4f63-8c95-3d859ad1f2e0","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fad11b3b-809f-4e92-afb6-dcbcbdd93fdd","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dfc6b7c3-7c56-4ebb-b172-673aae190381","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6624f843-d47d-48b4-afd6-0c64fbd4a7e7","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5090024-f4ab-49bb-bd37-9332cc489a3a","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8b119001-8722-41b5-b2b2-b6ca0eed5e66","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1ccb064-ec0c-4ada-9ea0-dfaab6a74597","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"974899cf-4098-4842-884a-0a32c1a90937","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa0e8a06-5f2c-4c71-8fe4-cbd9f0493687","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9118ceb9-6b08-4a39-8e70-8dd6bcc77088","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"acd1fb86-1d5e-49c1-989e-17e2ced181c9","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f2d95493-6795-4020-8f30-7269d1a07319","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c01c6e46-9855-4b72-8007-2870a7a13e06","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a629b349-dcc0-4b4c-8069-d5cdb5a2450e","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"339d848e-efe5-4ad8-bf57-bfc1d03ace29","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e552c1f4-1a12-404d-8df2-b61dcf2a5f70","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4a87199-bf62-44b7-9d6a-1cf0bd6d4dcc","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"39403ca5-ed68-4c13-9440-384b6eb4e424","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d9b0d989-84bc-4c66-b3cf-d4c61dff9ead","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0e6d9b9d-f04d-4a96-8039-1c80fd6cc554","Key":21.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f9245ba-c1cb-44fc-af5b-f904004a38ff","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a01a22a1-97b3-48e7-ade0-c1b609dc4fee","Key":22.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"838b324a-c0eb-464c-a91d-3f0c95fd0360","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"302b477b-e5c2-4b1f-b52e-a07cf5fb0231","Key":23.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"53bc86dc-9ce3-41b8-8e95-85848f2e1d8c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"aac38a54-6749-40da-a69e-ffa20fd0387d","Key":24.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72c59046-e489-421d-9463-6568754825cf","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fb6eb584-335c-49f4-b139-85915d451ec6","Key":25.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01d6f5ae-15ee-4e93-8585-2732508d71f2","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fb06ad66-893b-45dd-be94-33f65cafcaeb","Key":26.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4595c694-d15a-4e78-af71-8cbc75bb195c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"96196426-5084-45e6-bfad-14da458ae56f","Key":27.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df57b834-441b-4494-b9d8-4c372a1f24ef","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5689f558-73fd-4a99-8c4e-7fe42786d828","Key":28.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2932c9af-a553-42f3-8eb6-ffe55dbff481","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2bb4ec10-f400-40bd-97f0-0da260fa9ec0","Key":29.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a718c41d-7e61-4825-be0b-f459b55a140c","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"766697ff-6508-4291-9292-fbc7c19a4d93","Key":30.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0f6d8cb-713b-44e4-aa95-4ff9e7ee04e6","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"390302d7-660c-4db7-b673-ed0009191384","Key":31.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6deafde-24f1-43c7-b9f3-f02c2dc08ef0","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"158f58d9-b48b-4502-9e61-7bd6a0e8ff7c","Key":32.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8dfac310-cb62-4489-bac7-6531a3278fae","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 0,
+    "yorigin": 0,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sJailerDeathMelee","path":"sprites/sJailerDeathMelee/sJailerDeathMelee.yy",},
+    "resourceVersion": "1.3",
+    "name": "sJailerDeathMelee",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"eef9d772-f617-4cd8-b46e-2a5beb94af75","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "JAILER",
+    "path": "folders/Sprites/JAILER.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sJailerDeathMelee",
+  "tags": [],
+  "resourceType": "GMSprite",
+}
