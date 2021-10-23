@@ -14,7 +14,7 @@ if (l > string_length(str)+120) && next < array_length_1d(strings)-1
 
 str = strings[next];
 
-if(keyboard_check_direct (vk_escape))
+if(keyboard_check_pressed (vk_escape))
 {
 	fadeout = 1;
 }
