@@ -9,7 +9,7 @@ draw_text(683,650,print)
 if (holdspace > 0)
 {
 	draw_set_alpha(Wave(0.2,0.8,1,0));
-	draw_text(683,50,"Hold space to skip/continue");
+	draw_text(683,50,"Press esc to skip/continue");
 	draw_set_alpha(1);
 }
 

@@ -14,11 +14,9 @@ if (l > string_length(str)+120) && next < array_length_1d(strings)-1
 
 str = strings[next];
 
-if(keyboard_check_direct (vk_space))
+if(keyboard_check_direct (vk_escape))
 {
-	holdspace++;
+	fadeout = 1;
 }
-
-if (holdspace > 50) fadeout = 1;
 
 if (a ==1) && (fadeout == 1) room_goto_next();
