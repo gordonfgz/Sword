@@ -99,10 +99,6 @@ function SlithersAttack(){
 		AttackCooldown = AttackTimer;
 	}
 	
-	
-	
-	
-	
 	if (floor(image_index == 15)) {
 			show_debug_message("Ended animation, switching back to chase mode");
 			stateTarget = ENEMYSTATE.CHASE;

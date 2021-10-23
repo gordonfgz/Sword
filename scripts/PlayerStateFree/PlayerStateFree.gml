@@ -31,6 +31,12 @@ function PlayerStateFree() {
 		stateAttack = AttackSlash;
 	}
 	
+	//Change to shoot state
+	if (keyShoot) {
+		state = PlayerStateAttack;
+		stateAttack = AttackShoot;
+	}
+	
 	
 	//Interact with entities
 	if (keyActivate) {
