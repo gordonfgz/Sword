@@ -127,6 +127,7 @@
     {"id":{"name":"EnemyHitDamage","path":"scripts/EnemyHitDamage/EnemyHitDamage.yy",},"order":14,},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"order":0,},
     {"id":{"name":"sPlayerRollRight","path":"sprites/sPlayerRollRight/sPlayerRollRight.yy",},"order":7,},
+    {"id":{"name":"Sprite89","path":"sprites/Sprite89/Sprite89.yy",},"order":14,},
     {"id":{"name":"sSkeletonHurt","path":"sprites/sSkeletonHurt/sSkeletonHurt.yy",},"order":7,},
     {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},"order":4,},
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},"order":0,},

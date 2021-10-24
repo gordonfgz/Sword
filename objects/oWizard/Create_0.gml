@@ -7,9 +7,8 @@ canAttack = false;
 timer = 60;
 timerResetValue = 100;
 
-//Aura regulation
-PassiveCooldown = 0;
-PassiveTimer = 300;
+//Summon regulation
+canSummon = false;
 
 //Enemy Sprites
 sprMove = sWizardRun;

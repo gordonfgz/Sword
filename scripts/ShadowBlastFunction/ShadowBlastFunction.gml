@@ -1,13 +1,13 @@
 function ShadowBlastAttack(){
 	//Use attack hitbox and check for hits
 	ds_list_clear(hitByAttack);
-	show_debug_message("TRYING TO DETECT HTIS");
+	//show_debug_message("TRYING TO DETECT HTIS");
 	mask_index = sShadowBlastHB;
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,oPlayer,hitByAttackNow,false);
 	if (hits > 0)
 	{
-		show_debug_message("SOMETHING IS HIT");
+		//show_debug_message("SOMETHING IS HIT");
 		for (var i = 0; i <hits; i++)
 		{
 			//if this instance has not yet been hit by this attack, hit it!
