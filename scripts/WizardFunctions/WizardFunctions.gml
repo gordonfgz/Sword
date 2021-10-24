@@ -58,19 +58,18 @@ function WizardChase(){
 }
 	
 function WizardAttack(){
-	if (floor(image_index >= 4)) {
-		if (canAttack) {
-			ShadowBlast();
-		}
-		if (floor(image_index >=7)) {
-			state = ENEMYSTATE.CHASE;
-			canAttack = false;
-			timer = timerResetValue;
-		}
+	if (instance_exists(oPlayer) && point_distance(x,y,oPlayer.x,oPlayer.y) <= enemyAttackRadius) {
+		if (floor(image_index >= 4)) {
+			if (canAttack) {
+				ShadowBlast();
+			}
+			if (floor(image_index >=7)) {
+				state = ENEMYSTATE.CHASE;
+				canAttack = false;
+				timer = timerResetValue;
+			}
+		}	
 	}
-	
-	
-	
 }
 	
 

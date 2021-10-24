@@ -76,40 +76,32 @@ function SlithersChase(){
 		EnemyTileCollision();
 		
 		//Check if can attack
-		if (point_distance(x,y,target.x,target.y) <= enemyAttackRadius && AttackCooldown == 0) {
+		if (canAttack && point_distance(x,y,target.x,target.y) <= enemyAttackRadius) {
 			show_debug_message("Slithers Attacks Player");
 			state = ENEMYSTATE.ATTACK;
 			sprite_index = sprAttack;
 			image_index = 0;
 			image_speed = 1.0;
-			xTo += lengthdir_x(10, dir);
-			yTo += lengthdir_y(10, dir);
 		}
 	}
 }
 	
 function SlithersAttack(){
    
-	
-	xTo = target.x;
-	yTo = target.y;
-	
-	if (floor(image_index >= 10) and AttackCooldown == 0) {
-		ShootFireball(xTo, yTo);
-		AttackCooldown = AttackTimer;
+	if (instance_exists(oPlayer) && point_distance(x,y,oPlayer.x,oPlayer.y) <= enemyAttackRadius) {
+		target = oPlayer;
+		if (floor(image_index >= 11)) {
+			if (canAttack) {
+				ShootFireball();
+			}
+			if (floor(image_index >= 15)) {
+				state = ENEMYSTATE.CHASE;
+				canAttack = false;
+				timer = timerResetValue;
+			}
+		}	
 	}
-	
-	if (floor(image_index == 15)) {
-			show_debug_message("Ended animation, switching back to chase mode");
-			stateTarget = ENEMYSTATE.CHASE;
-			stateWaitDuration = 60;
-			state = ENEMYSTATE.WAIT;
-	}
-	
-	//How far we have to jump
-	var _distanceToGo = point_distance(x,y,xTo,yTo);
-	
-	
+
 }
 	
 
@@ -172,22 +164,26 @@ function SlithersDie() {
 }
 
 
-function ShootFireball(_xTo, _yTo) {
-	var _spread = random_range(-50,50)
-	var _dir = point_direction(x,y,_xTo + _spread,_yTo + _spread);	
-	with (instance_create_depth(floor(x), floor(y - 50), depth, oFireball)) {
-		show_debug_message(round(_dir/90));
+function ShootFireball() {
+	canAttack = false;
+	timer = timerResetValue;
+	var _xTo = target.x;
+	var _yTo = target.y;
+	for (var i = 0; i <5; i++) {
+		var _spread = random_range(-50,50)
+		var _dir = point_direction(x,y,_xTo + _spread,_yTo + _spread);
+		with (instance_create_depth(floor(x), floor(y - 50), depth, oFireball)) {
 		image_speed = 0;
 		image_index = 2;
 		image_angle = _dir;
 		direction = _dir;
-		//image_index = round(_dir/90) - 2;
 		speed = 10;
+		}
 	}
+	
 }
 
 function SlithersPassive() {
-	show_debug_message("Spawn bomber");
 	instance_create_depth(floor(x), floor(y - 50), depth, oBomber)
 		
 

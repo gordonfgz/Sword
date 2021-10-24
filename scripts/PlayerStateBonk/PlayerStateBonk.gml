@@ -10,7 +10,12 @@ function PlayerStateBonk(){
 	
 	//Update Sprite
 	sprite_index = sPlayerHurt;
-	image_index = CARDINAL_DIR - 2;
+	if (CARDINAL_DIR <= 0 or CARDINAL_DIR > 3) {
+		image_index = 0;
+	} else {
+		image_index = CARDINAL_DIR;
+	}
+	
 	
 	//Change height
 	z = sin(((moveDistanceRemaining / distanceBonk) * pi)) * distanceBonkHeight;

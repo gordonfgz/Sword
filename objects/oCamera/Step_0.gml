@@ -13,7 +13,7 @@ y += (yTo - y) / 15;
 
 //Keep camera center inside room
 x = clamp(x, viewWidthHalf, room_width - viewWidthHalf);
-y = clamp(x, viewHeightHalf, room_height - viewHeightHalf);
+y = clamp(y, viewHeightHalf, room_height - viewHeightHalf);
 
 //Screenshake
 x += random_range(-shakeRemain, shakeRemain);

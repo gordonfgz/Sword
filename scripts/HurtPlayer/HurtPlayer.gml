@@ -3,6 +3,7 @@
 function HurtPlayer(_direction, _force, _damage){
 	if (oPlayer.invulnerable <= 0 && oPlayer.state != PlayerStateRoll) {
 		global.playerHealth = max(0, global.playerHealth - _damage);
+		// For screen shakeing
 		
 		//Check if player is still alive
 		if (global.playerHealth > 0 ) {
@@ -10,7 +11,7 @@ function HurtPlayer(_direction, _force, _damage){
 				state = PlayerStateBonk;
 				direction = _direction - 180;
 				moveDistanceRemaining = _force;
-				//ScreenShake(2,10);
+				ScreenShake(8, 20);
 				flash = 0.7;
 				invulnerable = 120;
 				flashShader = shRedFlash;

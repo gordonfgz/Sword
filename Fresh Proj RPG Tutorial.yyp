@@ -79,6 +79,7 @@
     {"id":{"name":"Sprite76","path":"sprites/Sprite76/Sprite76.yy",},"order":15,},
     {"id":{"name":"sSlithersDeath","path":"sprites/sSlithersDeath/sSlithersDeath.yy",},"order":4,},
     {"id":{"name":"sPlayerLift","path":"sprites/sPlayerLift/sPlayerLift.yy",},"order":10,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":29,},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},"order":0,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":3,},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":2,},

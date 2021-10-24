@@ -1,12 +1,17 @@
 event_inherited();
 
-// To limt fireballs
-if (AttackCooldown != 0) {
-	AttackCooldown--;
+
+
+// regulate attack speed
+if (timer >= 0) {
+	timer--;
+} 
+if (timer <= 0) {
+	canAttack = true;
 }
 
-// Below 50% hp increase difficulty
-if (enemyHP < enemyMaxHP * 0.5 ) {
+// Below 70% hp increase difficulty
+if (enemyHP < enemyMaxHP * 0.7 ) {
 	if (PassiveCooldown != 0) {
 		PassiveCooldown--;
 	} else {

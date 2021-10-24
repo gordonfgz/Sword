@@ -2,9 +2,11 @@ event_inherited();
 
 state = ENEMYSTATE.WANDER;
 
+
 // Attack Speed Regulation
-AttackCooldown = 0;
-AttackTimer = 1;
+canAttack = false;
+timer = 60;
+timerResetValue = 100;
 
 //Aura regulation
 PassiveCooldown = 0;

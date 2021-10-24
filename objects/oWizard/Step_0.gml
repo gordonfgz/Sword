@@ -1,6 +1,6 @@
 event_inherited();
 
-// To limt fireballs
+// regulate attack speed
 if (timer != 0) {
 	timer--;
 } 

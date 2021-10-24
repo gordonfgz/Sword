@@ -34,6 +34,7 @@ function PlayerCollision(){
 
 	//Horizontal Move Commit
 	x += hSpeed;
+
 	
 	// Clear list between axis
 	ds_list_clear(_entityList);
