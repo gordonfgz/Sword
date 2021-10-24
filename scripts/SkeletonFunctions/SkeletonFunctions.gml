@@ -89,7 +89,7 @@ function SkeletonChase(){
 }
 	
 function SkeletonAttack(){
-	var _spd = 5;
+	var _spd = 6;
 	
 	//Dont move while still getting ready
 	if (image_index < 3) {
@@ -130,7 +130,7 @@ function SkeletonAttack(){
 		if (floor(image_index == 5)) {
 			show_debug_message("Ended animation, switching back to chase mode");
 			stateTarget = ENEMYSTATE.CHASE;
-			stateWaitDuration = 100;
+			stateWaitDuration = 20;
 			state = ENEMYSTATE.WAIT;
 		}
 	}
@@ -193,4 +193,32 @@ function SkeletonDie() {
 		}
 	}
 
+}
+
+// MAYBE IN THE FUTURE I WILL USE THIS???
+function SkeletonHBAttack(){
+	//Use attack hitbox and check for hits
+	ds_list_clear(hitByAttack);
+	//show_debug_message("TRYING TO DETECT HTIS");
+	mask_index = sShadowBlastHB;
+	var hitByAttackNow = ds_list_create();
+	var hits = instance_place_list(x,y,oPlayer,hitByAttackNow,false);
+	if (hits > 0)
+	{
+		//show_debug_message("SOMETHING IS HIT");
+		for (var i = 0; i <hits; i++)
+		{
+			//if this instance has not yet been hit by this attack, hit it!
+			var hitID = hitByAttackNow[| i];
+			if (ds_list_find_index(hitByAttack, hitID) == -1)
+			{
+				ds_list_add(hitByAttack, hitID);
+				with (hitID)
+				{	
+					HurtPlayer(0,0,1);
+				}
+			}
+		}
+	}
+	ds_list_destroy(hitByAttackNow);
 }
