@@ -5,4 +5,7 @@ switch(menu_index) {
 		// start game
 		room_goto(rInit);
 	}
+	case 1: {
+		room_goto(rInstructions);
+	}
 }
