@@ -7,7 +7,7 @@ if (global.gamePaused) {
 	if (pauseOptionSelected >= array_length(pauseOption)) pauseOptionSelected = 0;
 	if (pauseOptionSelected < 0) pauseOptionSelected = array_length(pauseOption) - 1;
 	
-	keyActivate = keyboard_check_pressed(vk_space);
+	keyActivate = keyboard_check_pressed(vk_enter);
 	
 	if (keyActivate) {
 		switch(pauseOptionSelected) {
