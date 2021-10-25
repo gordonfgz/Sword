@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function NineSliceBoxStretched(){
+function NineSliceBoxStretched(argument0, argument1, argument2, argument3, argument4, argument5){
 var _size = sprite_get_width(argument0) / 3;
 var _x1 = argument1;
 var _y1 = argument2;
