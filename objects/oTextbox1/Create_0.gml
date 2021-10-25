@@ -12,5 +12,11 @@ lerpProgress = 0;
 textProgress = 0;
 
 message_index = 0;
-message_array = ["second room: first message", "second room: second message", "second room: third message"];
+message_array = ["We have a whole thingy here for what happened after your beat Bones, but I got lazy.", 
+"Press 'space' to roll", 
+"Don't die now.",
+
+
+
+];
 background = 0;
