@@ -24,7 +24,7 @@ instance_deactivate_all(1);
 	// }
 // }
 
-if (keyboard_check_pressed(vk_right))
+if (keyboard_check_pressed(vk_space))
 {
 	var _messageLength = string_length(message_array[message_index]);
 	if (textProgress >= _messageLength and message_index < array_length(message_array)-1)
