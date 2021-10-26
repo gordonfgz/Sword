@@ -13,6 +13,6 @@ textProgress = 0;
 
 message_index = 0;
 message_array = 
-["Use WASD to move, and J to attack.",
+["Use WASD to move, and J to attack. Try not to die.",
 ];
 background = 0;
