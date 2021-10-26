@@ -15,7 +15,7 @@ next = 0;
 
 holdspace = 0;
 
-strings[0] = "                                   \n                                              "
+strings[0] = ""
 strings[1] = "Where am I....?";
 strings[2] = "How did I end up here...?";
 strings[3] = "Rather, how do I know I'm somewhere\nunfamiliar with my eyes closed?"
