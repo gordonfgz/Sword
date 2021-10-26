@@ -1,5 +1,6 @@
 camera_set_view_pos(view_camera[0],0,10);
 
+
 if (!fadeout) a = max(a-0.005, 0.25); else a = min(a+0.005, 1);
 
 l += 0.8;
@@ -21,4 +22,4 @@ if(keyboard_check_pressed (vk_escape))
 
 if (a ==1) && (fadeout == 1) room_goto_next();
 
-if next >= 11 then fadeout = 1;
+if (next >= 29) then fadeout = 1
