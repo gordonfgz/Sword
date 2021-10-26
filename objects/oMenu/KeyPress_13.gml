@@ -3,9 +3,9 @@
 switch(menu_index) {
 	case 0: {
 		// start game
-		room_goto(rInit);
+		room_goto(rInstructions);
 	}
 	case 1: {
-		room_goto(rInstructions);
+		room_goto(rInit);
 	}
 }

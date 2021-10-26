@@ -7,7 +7,7 @@ button_w = 256;
 button_padding = 8;
 
 // buttons
-buttons = ["Start Game", "Instructions"];
+buttons = ["Press Enter to Start"];
 
 menu_index = 0;
 last_selected = 0;
