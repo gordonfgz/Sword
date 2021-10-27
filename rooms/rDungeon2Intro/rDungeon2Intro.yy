@@ -17,10 +17,10 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"oWizardIntro","path":"objects/oWizardIntro/oWizardIntro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":421.0,"y":264.0,"resourceVersion":"1.0","name":"inst_3E68F008","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWizardIntro","path":"objects/oWizardIntro/oWizardIntro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":448.0,"resourceVersion":"1.0","name":"inst_3E68F008","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
-        {"spriteId":{"name":"sWizardCutscene","path":"sprites/sWizardCutscene/sWizardCutscene.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.37199986,"scaleY":1.34399986,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":744.5,"y":497.759949,"resourceVersion":"1.0","name":"graphic_14AC34C3","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"sWizardCutscene","path":"sprites/sWizardCutscene/sWizardCutscene.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.37199986,"scaleY":1.34399986,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":416.0,"resourceVersion":"1.0","name":"graphic_14AC34C3","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"sNoSword","path":"sprites/sNoSword/sNoSword.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":294.0,"y":373.0,"resourceVersion":"1.0","name":"graphic_563EBECF","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"sSwordCutscene","path":"sprites/sSwordCutscene/sSwordCutscene.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":305.0,"y":316.0,"resourceVersion":"1.0","name":"graphic_7CDC8070","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
@@ -228,7 +228,7 @@
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
-  "inheritCode": true,
+  "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_4482E534_1","path":"rooms/rDungeon2Intro/rDungeon2Intro.yy",},
     {"name":"inst_5517CE74","path":"rooms/rDungeon2Intro/rDungeon2Intro.yy",},
@@ -244,7 +244,7 @@
     "persistent": false,
   },
   "viewSettings": {
-    "inheritViewSettings": true,
+    "inheritViewSettings": false,
     "enableViews": true,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,

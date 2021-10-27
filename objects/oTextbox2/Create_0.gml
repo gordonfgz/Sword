@@ -12,9 +12,9 @@ lerpProgress = 0;
 textProgress = 0;
 
 message_index = 0;
-message_array = ["Again, we had a whole thing for after you beat Slithers, but I had no time.",
-"Yes I know my excuse changed, shut up.",
-"Press 'L' to shoot. Don't die. Nothing happens if you win anyway we haven't made that part yet."
+message_array = ["You have gained the ability to shoot!",
+"It's pretty sus, we know.",
+"Press 'L' or 'Z' to shoot. Don't die."
 
 
 

@@ -4,6 +4,7 @@
 
 //camera
 //xpos = 0;
+ypos = 150
 a = 1; //alpha transparency
 fadeout = 0; 
 
