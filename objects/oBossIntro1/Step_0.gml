@@ -21,4 +21,4 @@ if(keyboard_check_pressed (vk_escape))
 
 if (a ==1) && (fadeout == 1) room_goto_next();
 
-if next >= 29 then fadeout = 1;
+if next >= 17 then fadeout = 1;
