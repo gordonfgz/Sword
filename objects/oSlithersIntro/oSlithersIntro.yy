@@ -31,7 +31,7 @@
     "path": "folders/Objects/Cutscene Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBossIntro1",
+  "name": "oSlithersIntro",
   "tags": [],
   "resourceType": "GMObject",
 }

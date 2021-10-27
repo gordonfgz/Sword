@@ -12,8 +12,8 @@ lerpProgress = 0;
 textProgress = 0;
 
 message_index = 0;
-message_array = ["We have a whole thingy here for what happened after your beat Bones, but I got lazy.", 
-"Press 'space' to roll", 
+message_array = ["You have gained the ability to do a dodge roll! Combat styles.", 
+"Press 'space' to roll. Use it to avoid the fireballs.", 
 "Don't die now.",
 
 
