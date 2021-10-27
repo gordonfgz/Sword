@@ -15,7 +15,7 @@ next = 0;
 
 holdspace = 0;
 
-strings[0] = "                                   \n                                              "
+strings[0] = ""
 strings[1] = "You open your eyes, getting slowly to your feet and freezing as you spot a floating sword in front of you.\nIt seems irritated, though you don't know how you can tell.";
 strings[2] = "Sword:\nWell it's about time you got up; I was starting to think you were dead!";
 strings[3] = "You:\n...This has to be the weirdest hallucination I've ever had."

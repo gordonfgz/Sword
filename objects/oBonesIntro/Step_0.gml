@@ -14,11 +14,12 @@ if (l > string_length(str)+300) && next < array_length_1d(strings)-1
 
 str = strings[next];
 
-if(keyboard_check_pressed (vk_escape))
+if(keyboard_check_pressed (vk_backspace))
 {
 	fadeout = 1;
 }
 
+if next >= 17 then fadeout = 1;
+
 if (a ==1) && (fadeout == 1) room_goto_next();
 
-if next >= 17 then fadeout = 1;

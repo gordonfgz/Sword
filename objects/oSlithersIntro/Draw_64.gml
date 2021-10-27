@@ -9,7 +9,7 @@ draw_set_font(fCutscene)
 if (holdspace > 0)
 {
 	draw_set_alpha(Wave(0.2,0.8,1,0));
-	draw_text(640,50,"Press esc to skip/continue");
+	draw_text(640,50,"Press backspace to skip");
 	draw_set_alpha(1);
 }
 
