@@ -12,7 +12,9 @@ lerpProgress = 0;
 textProgress = 0;
 
 message_index = 0;
-message_array = ["Press 'space' to roll", "Dodge around or through the fireballs.","Don't die now."
+message_array = ["We have a whole thingy here for what happened after your beat Bones, but I got lazy.", 
+"Press 'space' to roll", 
+"Don't die now.",
 
 
 

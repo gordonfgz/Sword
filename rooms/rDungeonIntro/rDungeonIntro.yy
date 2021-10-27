@@ -16,14 +16,6 @@
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"oBossIntro1","path":"objects/oBossIntro1/oBossIntro1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":369.0,"y":204.0,"resourceVersion":"1.0","name":"inst_5EA7DDBC","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":-400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"assets":[
-        {"spriteId":{"name":"sNoSword","path":"sprites/sNoSword/sNoSword.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":201.0,"y":202.0,"resourceVersion":"1.0","name":"graphic_10E092AA","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"sSword","path":"sprites/sSword/sSword.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":242.0,"y":191.0,"resourceVersion":"1.0","name":"graphic_73519E85","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"sSkeletonCutscene","path":"sprites/sSkeletonCutscene/sSkeletonCutscene.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":521.0,"y":255.0,"resourceVersion":"1.0","name":"graphic_46196D7C","tags":[],"resourceType":"GMRSpriteGraphic",},
-      ],"visible":true,"depth":-300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"tilesetId":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":50,"SerialiseHeight":32,"TileSerialiseData":[
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2147483648,2147483648,2147483648,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2147483648,2147483648,2147483648,2147483648,0,0,0,1,2147483648,2147483648,2147483648,2147483648,2147483648,1,1,2147483648,2147483648,2147483648,
@@ -176,7 +168,6 @@
     {"name":"inst_371D7677_1","path":"rooms/rDungeonIntro/rDungeonIntro.yy",},
     {"name":"inst_29AED68D_1","path":"rooms/rDungeonIntro/rDungeonIntro.yy",},
     {"name":"inst_7685DDA1_1","path":"rooms/rDungeonIntro/rDungeonIntro.yy",},
-    {"name":"inst_5EA7DDBC","path":"rooms/rDungeonIntro/rDungeonIntro.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
