@@ -159,6 +159,11 @@ function SlithersDie() {
 		with(instance_exists(oRoomExit)) {
 			canTransit = true;
 		}
+		with(instance_exists(oPlayer)) {
+			oPlayer.stage3 = true;
+			oPlayer.spriteIdle = sPlayer3;
+			oPlayer.spriteRun = sPlayerRunStage3;
+		}
 	}
 
 }

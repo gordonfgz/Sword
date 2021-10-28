@@ -89,7 +89,7 @@ function SkeletonChase(){
 }
 	
 function SkeletonAttack(){
-	var _spd = 6;
+	var _spd = 5;
 	
 	//Dont move while still getting ready
 	if (image_index < 3) {
@@ -187,10 +187,17 @@ function SkeletonDie() {
 	
 	// check animation is finished
 	if (image_index + (sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps)) >= image_number) {
-		instance_destroy();
+		
 		with(instance_exists(oRoomExit)) {
 			canTransit = true;
 		}
+		with(instance_exists(oPlayer)) {
+			oPlayer.stage2 = true;
+			oPlayer.spriteRun = sPlayerRunStage2;
+			oPlayer.spriteIdle = sPlayer2;
+			global.playerHealth = global.playerHealthMax;
+		}
+		instance_destroy();
 	}
 
 }

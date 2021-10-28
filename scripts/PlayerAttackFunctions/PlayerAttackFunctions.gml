@@ -22,6 +22,56 @@ function AttackSlash() {
 		animationEnd = false;
 	}
 }
+
+function AttackSlash2() {
+	
+	//Attack just started
+	if (sprite_index != sPlayerAttackSlash2) {
+		//Set up correct animation
+		sprite_index = sPlayerAttackSlash2;
+		localframe = 0;
+		image_index = 0;
+		
+		//Clear hit list
+		if (!ds_exists(hitByAttack, ds_type_list)) hitByAttack = ds_list_create();
+		ds_list_clear(hitByAttack);
+		
+	}
+	
+	CalcSlashAttack(sPlayerAttackSlashHB2);
+	
+	//Update Sprite
+	PlayerAnimateSprite();
+	if (animationEnd) {
+		state = PlayerStateFree;
+		animationEnd = false;
+	}
+}
+
+function AttackSlash3() {
+	
+	//Attack just started
+	if (sprite_index != sPlayerAttackSlash3) {
+		//Set up correct animation
+		sprite_index = sPlayerAttackSlash3;
+		localframe = 0;
+		image_index = 0;
+		
+		//Clear hit list
+		if (!ds_exists(hitByAttack, ds_type_list)) hitByAttack = ds_list_create();
+		ds_list_clear(hitByAttack);
+		
+	}
+	
+	CalcSlashAttack(sPlayerAttackSlashHB3);
+	
+	//Update Sprite
+	PlayerAnimateSprite();
+	if (animationEnd) {
+		state = PlayerStateFree;
+		animationEnd = false;
+	}
+}
 	
 function AttackShoot() {
 	//Attack just started
@@ -94,7 +144,7 @@ function CalcShootAttack(){
 				with (hitID)
 				{
 					if (object_is_ancestor(object_index, pEnemy)) {
-						HurtEnemy(id, 5, other.id, 10);
+						HurtEnemy(id, 5, other.id, 15);
 					} else {
 						if (entityHitScript != -1) {
 							script_execute(entityHitScript);

@@ -21,14 +21,30 @@ distanceBonkHeight = 12;
 
 
 
+
+
 z = 0;
 invulnerable = 0;
 flash = 0;
 flashShader = shWhiteFlash;
 
 spriteRoll = sPlayerRoll
-spriteRun = sPlayerRun;
-spriteIdle = sPlayer;
+
+if (!stage2 && !stage3) {
+	spriteIdle = sPlayer;
+	spriteRun = sPlayerRun;
+}
+
+if (stage2 && !stage3) {
+	spriteIdle = sPlayer2;
+	spriteRun = sPlayerRunStage2;
+}
+
+if (stage2 && stage3) {
+	spriteIdle = sPlayer3;
+	spriteRun = sPlayerRunStage3;
+}
+
 localFrame = 0;
 
 //added in lifting

@@ -21,18 +21,30 @@ function PlayerStateFree() {
 
 	//Change to roll state
 	if (keyRoll) {
-		state = PlayerStateRoll;
-		moveDistanceRemaining = distanceRoll
+		if (stage2) {
+			state = PlayerStateRoll;
+			moveDistanceRemaining = distanceRoll
+		}
 	}
 	
 	//Change to attack state
 	if (keyAttack) {
-		state = PlayerStateAttack;
-		stateAttack = AttackSlash;
+		if (!stage2 && !stage3) {
+			state = PlayerStateAttack;
+			stateAttack = AttackSlash;
+		}
+		if (stage2 && !stage3) {
+			state = PlayerStateAttack;
+			stateAttack = AttackSlash2;
+		}
+		if (stage2 && stage3) {
+			state = PlayerStateAttack;
+			stateAttack = AttackSlash3;
+		}
 	}
 	
 	//Change to shoot state
-	if (keyShoot) {
+	if (keyShoot && stage3) {
 		state = PlayerStateAttack;
 		stateAttack = AttackShoot;
 	}
