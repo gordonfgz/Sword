@@ -10,4 +10,14 @@ switch(menu_index) {
 		room_goto(rInstructions);
 		break;
 	}
+	
+	case 2: {
+		room_goto(rCreds);
+		break;
+	}
+	
+	case 3: {
+		game_end();
+		break;
+	}	
 }
