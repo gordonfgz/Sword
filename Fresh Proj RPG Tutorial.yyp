@@ -104,6 +104,7 @@
     {"id":{"name":"PlayerCanRoll","path":"scripts/PlayerCanRoll/PlayerCanRoll.yy",},"order":7,},
     {"id":{"name":"sPlayerNEW","path":"sprites/sPlayerNEW/sPlayerNEW.yy",},"order":14,},
     {"id":{"name":"oFragment","path":"objects/oFragment/oFragment.yy",},"order":5,},
+    {"id":{"name":"sInstructions","path":"sprites/sInstructions/sInstructions.yy",},"order":35,},
     {"id":{"name":"sPlayerAttackSlashHB","path":"sprites/sPlayerAttackSlashHB/sPlayerAttackSlashHB.yy",},"order":1,},
     {"id":{"name":"sPlayerAttackSlash3","path":"sprites/sPlayerAttackSlash3/sPlayerAttackSlash3.yy",},"order":26,},
     {"id":{"name":"oWizardIntro","path":"objects/oWizardIntro/oWizardIntro.yy",},"order":6,},
