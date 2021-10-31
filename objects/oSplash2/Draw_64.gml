@@ -7,10 +7,10 @@ draw_text(640,930,print)
 draw_set_font(fCutscene)
 
 
-if (holdspace > 0)
+if (next >= 0)
 {
 	draw_set_alpha(Wave(0.2,0.8,1,0));
-	draw_text(640,50,"Press Enter to continue");
+	draw_text(640,670,"Press Enter to continue");
 	draw_set_alpha(1);
 }
 
