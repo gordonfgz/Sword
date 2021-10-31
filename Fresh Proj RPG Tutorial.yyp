@@ -116,6 +116,7 @@
     {"id":{"name":"tCatacombs","path":"tilesets/tCatacombs/tCatacombs.yy",},"order":2,},
     {"id":{"name":"test","path":"sprites/test/test.yy",},"order":8,},
     {"id":{"name":"sStage3Sword","path":"sprites/sStage3Sword/sStage3Sword.yy",},"order":24,},
+    {"id":{"name":"rDied","path":"rooms/rDied/rDied.yy",},"order":19,},
     {"id":{"name":"rDungeon1","path":"rooms/rDungeon1/rDungeon1.yy",},"order":4,},
     {"id":{"name":"sSlithersHurt","path":"sprites/sSlithersHurt/sSlithersHurt.yy",},"order":5,},
     {"id":{"name":"sCreds","path":"sprites/sCreds/sCreds.yy",},"order":34,},
@@ -147,6 +148,7 @@
     {"id":{"name":"oFireball","path":"objects/oFireball/oFireball.yy",},"order":10,},
     {"id":{"name":"sSkeletonAttack","path":"sprites/sSkeletonAttack/sSkeletonAttack.yy",},"order":6,},
     {"id":{"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},"order":15,},
+    {"id":{"name":"oDied","path":"objects/oDied/oDied.yy",},"order":22,},
     {"id":{"name":"sPlayerRollLeft","path":"sprites/sPlayerRollLeft/sPlayerRollLeft.yy",},"order":5,},
     {"id":{"name":"ShadowBlastFunction","path":"scripts/ShadowBlastFunction/ShadowBlastFunction.yy",},"order":2,},
     {"id":{"name":"Sprite50","path":"sprites/Sprite50/Sprite50.yy",},"order":6,},
@@ -239,6 +241,7 @@
     {"roomId":{"name":"rDungeon2","path":"rooms/rDungeon2/rDungeon2.yy",},},
     {"roomId":{"name":"rInstructions","path":"rooms/rInstructions/rInstructions.yy",},},
     {"roomId":{"name":"rCreds","path":"rooms/rCreds/rCreds.yy",},},
+    {"roomId":{"name":"rDied","path":"rooms/rDied/rDied.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
