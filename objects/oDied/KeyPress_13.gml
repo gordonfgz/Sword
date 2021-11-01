@@ -7,7 +7,9 @@ switch(menu_index) {
 		break;
 	}
 	case 1: {
-		room_goto(rDungeon);
+		if instance_exists(oSkeleton) then room_goto(rDungeon);
+		if instance_exists(oSlithers) then room_goto(rDungeon1);
+		if instance_exists(oWizard) then room_goto(rDungeon2);
 		break;
 	}
 	

@@ -163,6 +163,7 @@ function SlithersDie() {
 			oPlayer.stage3 = true;
 			oPlayer.spriteIdle = sPlayer3;
 			oPlayer.spriteRun = sPlayerRunStage3;
+			global.playerHealth = global.playerHealthMax;
 		}
 	}
 

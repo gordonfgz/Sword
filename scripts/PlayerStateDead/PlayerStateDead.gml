@@ -25,7 +25,9 @@ function PlayerStateDead(){
 			image_index = image_number -1;
 			global.targetX = -1;
 			global.targetY = -1;
-			RoomTransition(TRANS_TYPE.SLIDE, rDungeon);
+			if instance_exists(oSkeleton) then RoomTransition(TRANS_TYPE.SLIDE, rDiedToSkeleton);
+			if instance_exists(oSlithers) then RoomTransition(TRANS_TYPE.SLIDE, rDiedToSlithers);
+			if instance_exists(oWizard) then RoomTransition(TRANS_TYPE.SLIDE, rDiedToWizard);
 		}
 	}
 	
