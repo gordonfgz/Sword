@@ -19,9 +19,21 @@ if (global.gamePaused) {
 				}
 			} break;
 			case 1: { // Restart Game
+				global.gamePaused = false;
 				gamePausedImageSpeed = image_speed;
 				image_speed = 0;
-				game_restart();
+				room_restart();
+			} break;
+			case 2: { // Main Menu
+				global.gamePaused = false;
+				gamePausedImageSpeed = image_speed;
+				image_speed = 0;
+				room_goto(rMenu);
+			} break;
+			case 3: { // Quit Game
+				gamePausedImageSpeed = image_speed;
+				image_speed = 0;
+				game_end();
 			}
 		}
 	}
