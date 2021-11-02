@@ -13,5 +13,8 @@ textProgress = 0;
 
 message_index = 0;
 message_array = 
-[];
+["Congratulations! You beat a giant flaming worm",
+"Your sword has been upgraded, and you've unlocked the ability to shoot a fireblast",
+"Proceed to the stairs in the upper right to continue"
+];
 background = 0;

@@ -19,7 +19,7 @@ if(keyboard_check_pressed (vk_backspace))
 	fadeout = 1;
 }
 
-if next >= 11 then fadeout = 1;
+if next >= 10 then fadeout = 1;
 
 if (a ==1) && (fadeout == 1) room_goto_next();
 

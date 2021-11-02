@@ -13,5 +13,8 @@ textProgress = 0;
 
 message_index = 0;
 message_array = 
-[];
+["Congratulations! You've beaten up an old pile of Bones",
+"Your sword has been upgraded, and you've finally figured out how to dodge",
+"Proceed to the stairs in the upper right to continue"
+];
 background = 0;

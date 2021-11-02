@@ -15,5 +15,8 @@ textProgress = 0;
 
 message_index = 0;
 message_array = 
-[];
+["Well would you look at that. You beat your captor",
+"Congrats. Head down to the stairs in the bottom right, and make your way home",
+"You earned it"
+];
 background = 0;
