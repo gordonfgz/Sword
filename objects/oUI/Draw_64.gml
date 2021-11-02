@@ -4,6 +4,7 @@ var _playerHealth = global.playerHealth;
 var _playerHealthMax = global.playerHealthMax;
 var _playerHealthFrac = frac(_playerHealth);
 _playerHealth -= _playerHealthFrac;
+draw_text(1200, 20, "ESC to pause")
 
 for (var i = 1; i <= _playerHealthMax; i++) {
 	var _imageIndex = (i > _playerHealth);
