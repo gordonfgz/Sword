@@ -13,7 +13,8 @@ textProgress = 0;
 
 message_index = 0;
 message_array = 
-["Use WASD to move, and J to attack.",
-"Move to the stairs to progress"
+["Use 'WASD' or Arrow keys to move, and 'J' or 'C' to attack.",
+"Move to the stairs to progress",
+"Press 'R' to restart the stage if you ever get stuck"
 ];
 background = 0;

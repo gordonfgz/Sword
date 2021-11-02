@@ -13,6 +13,7 @@ textProgress = 0;
 
 message_index = 0;
 message_array = 
-["Use WASD to move, and J to attack.",
+["Use 'WASD' or Arrow keys to move, and 'J' or 'C' to attack.",
+"Press 'R' to restart if you get stuck"
 ];
 background = 0;
