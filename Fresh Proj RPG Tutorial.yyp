@@ -191,7 +191,6 @@
     {"id":{"name":"sShineAnimation","path":"sprites/sShineAnimation/sShineAnimation.yy",},"order":11,},
     {"id":{"name":"oShadowBlast","path":"objects/oShadowBlast/oShadowBlast.yy",},"order":15,},
     {"id":{"name":"tPurpleDungeon","path":"tilesets/tPurpleDungeon/tPurpleDungeon.yy",},"order":1,},
-    {"id":{"name":"oWinningCondition","path":"objects/oWinningCondition/oWinningCondition.yy",},"order":8,},
     {"id":{"name":"sWizardHurt","path":"sprites/sWizardHurt/sWizardHurt.yy",},"order":5,},
     {"id":{"name":"sSwordCutscene","path":"sprites/sSwordCutscene/sSwordCutscene.yy",},"order":4,},
     {"id":{"name":"PlayerStateBonk","path":"scripts/PlayerStateBonk/PlayerStateBonk.yy",},"order":5,},
