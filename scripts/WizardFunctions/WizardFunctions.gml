@@ -135,6 +135,7 @@ function WizardDie() {
 			oPlayer.spriteRun = sPlayerRunStage3;
 			global.playerHealth = global.playerHealthMax;
 		}
+		instance_create_layer(x, y, "Instances", oTextboxEnd2);
 	}
 
 }

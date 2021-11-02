@@ -198,6 +198,7 @@ function SkeletonDie() {
 			global.playerHealth = global.playerHealthMax;
 		}
 		instance_destroy();
+		instance_create_layer(x, y, "Instances", oTextboxEnd);
 	}
 
 }
