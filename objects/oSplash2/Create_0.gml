@@ -1,5 +1,5 @@
 // copied this from oIntro so forgive me if it's confusing
-
+audio_play_sound(Muusic,1000,true)
 
 //camera
 //xpos = 0;

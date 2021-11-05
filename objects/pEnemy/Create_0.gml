@@ -42,7 +42,7 @@ if (enemyHP != enemyMaxHP) {
 //Healthbar nonsense
 healthbar_width = 196;
 healthbar_height = 27;
-healthbar_x = (1100/2) - (healthbar_width/2);
+healthbar_x = (1280/2) - (healthbar_width/2);
 healthbar_y = 50;
 
 
