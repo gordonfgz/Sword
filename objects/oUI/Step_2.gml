@@ -28,7 +28,7 @@ if (global.gamePaused) {
 				global.gamePaused = false;
 				gamePausedImageSpeed = image_speed;
 				image_speed = 0;
-				room_goto(rMenu);
+				game_restart();
 			} break;
 			case 3: { // Quit Game
 				gamePausedImageSpeed = image_speed;
