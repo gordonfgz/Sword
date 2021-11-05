@@ -34,7 +34,7 @@ if (global.gamePaused) {
 				gamePausedImageSpeed = image_speed;
 				image_speed = 0;
 				game_end();
-			}
+			} break;	
 		}
 	}
 }
