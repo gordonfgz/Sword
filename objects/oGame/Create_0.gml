@@ -1,6 +1,8 @@
 randomize();
 
 global.gamePaused = false;
+global.textboxActivated = false;
+global.pauseMenu = false;
 global.textSpeed = 100;
 global.targetRoom = -1;
 global.targetX = -1;

@@ -6,7 +6,9 @@ textProgress += global.textSpeed;
 x1 = lerp(x1, x1Target, lerpProgress);
 x2 = lerp(x2, x2Target, lerpProgress);
 
-instance_deactivate_all(1);
+// instance_deactivate_all(1);
+global.gamePaused = true;
+global.textboxActivated = true;
 
 // if (keyboard_check_pressed(vk_space))
 // {
@@ -35,6 +37,7 @@ if (keyboard_check_pressed(vk_space))
 	else if (textProgress >= _messageLength)
 	{
 		instance_destroy();
-		instance_activate_all()
+		global.gamePaused = false;
+		// instance_activate_all()
 	}
 }
