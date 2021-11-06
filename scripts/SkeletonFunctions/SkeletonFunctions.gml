@@ -130,7 +130,7 @@ function SkeletonAttack(){
 		if (floor(image_index == 5)) {
 			show_debug_message("Ended animation, switching back to chase mode");
 			stateTarget = ENEMYSTATE.CHASE;
-			stateWaitDuration = 20;
+			stateWaitDuration = 40;
 			state = ENEMYSTATE.WAIT;
 		}
 	}
