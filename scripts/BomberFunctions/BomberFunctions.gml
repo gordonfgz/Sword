@@ -43,7 +43,7 @@ function BomberWander(){
 	if (++aggroCheck > aggroCheckDuration) {
 		aggroCheck = 0;
 		if (instance_exists(oPlayer) && point_distance(x,y,oPlayer.x,oPlayer.y) <= enemyAggroRadius) {
-			show_debug_message("Skeleton chasing Player")
+			show_debug_message("Bomber chasing Player")
 			state = ENEMYSTATE.CHASE;
 			target = oPlayer;
 		}
