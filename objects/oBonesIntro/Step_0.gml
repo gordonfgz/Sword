@@ -22,4 +22,3 @@ if(keyboard_check_pressed (vk_backspace))
 if next >= 14 then fadeout = 1;
 
 if (a ==1) && (fadeout == 1) room_goto_next();
-

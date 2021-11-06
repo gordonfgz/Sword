@@ -1,7 +1,6 @@
 // intro storyline w player sleeping
 // can add start menu somewhere as well
 
-
 //camera
 //xpos = 0;
 a = 1; //alpha transparency
