@@ -20,6 +20,7 @@ distanceBonk = 40;
 distanceBonkHeight = 12;
 
 
+
 z = 0;
 invulnerable = 0;
 flash = 0;

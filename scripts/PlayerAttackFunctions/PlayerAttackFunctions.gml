@@ -13,6 +13,7 @@ function AttackSlash() {
 		
 	}
 	
+	
 	CalcSlashAttack(sPlayerAttackSlashHB);
 	
 	//Update Sprite
