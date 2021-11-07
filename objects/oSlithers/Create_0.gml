@@ -6,7 +6,7 @@ state = ENEMYSTATE.WANDER;
 // Attack Speed Regulation
 canAttack = false;
 timer = 60;
-timerResetValue = 100;
+timerResetValue = 70;
 
 //Aura regulation
 PassiveCooldown = 0;
