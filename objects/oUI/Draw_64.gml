@@ -30,7 +30,7 @@ if (global.pauseMenu) {
 	draw_set_valign(fa_middle);
 	
 	draw_text(RESOLUTION_W, RESOLUTION_H*0.75, "...Game Paused...");
-	draw_text(RESOLUTION_W, RESOLUTION_H*0.85, "WASD/Arrows to Move, J/C to Attack, Enter to select");
+	draw_text(RESOLUTION_W, RESOLUTION_H*0.85, "WASD/Arrows to Move, J/C to Attack, Enter to select, R to restart stage");
 	for (var i = 0; i < array_length(pauseOption); i++) {
 		var _print = "";
 		if (i == pauseOptionSelected) {
