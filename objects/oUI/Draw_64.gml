@@ -19,7 +19,7 @@ for (var i = 1; i <= _playerHealthMax; i++) {
 }
 
 // Pause Screen
-if (global.gamePaused) {
+if (global.pauseMenu) {
 	draw_set_color(c_black);
 	draw_set_alpha(0.75);
 	draw_rectangle(0, 0, RESOLUTION_W*2, RESOLUTION_H*2, false);
