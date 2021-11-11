@@ -6,4 +6,4 @@ draw_set_valign(fa_middle);
 draw_set_font(fText);
 draw_set_color(c_black);
 
-draw_text(room_width, 580, "Press Enter to return to main menu");
+draw_text(room_width, 665, "Press Enter to return to main menu");
