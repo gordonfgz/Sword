@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-menu_move = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
-
-menu_index += menu_move;
+keyUp = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
+keyDown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
+menu_index += (keyDown - keyUp);
 if (menu_index < 0) menu_index = array_length(buttons) - 1;
 if (menu_index >= array_length(buttons)) menu_index = 0;
 

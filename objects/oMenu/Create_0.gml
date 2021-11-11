@@ -6,6 +6,7 @@ button_h = 24;
 button_w = 256;
 button_padding = 8;
 
+
 // buttons
 buttons = ["Start Game", "Instructions", "Credits","Quit"];
 
