@@ -8,7 +8,7 @@ switch(menu_index) {
 	}
 	// Main Menu
 	case 1: {
-		room_goto(rMenu);
+		game_restart();
 		break;
 	}
 	// Quit
